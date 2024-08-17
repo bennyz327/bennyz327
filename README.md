@@ -1,12 +1,19 @@
-## Hi there 👋
+## Hi there ! My name is Benny Chou 👋
+
+- 🌱 I’m currently learning Java, Kotlin, Javascript/Typescript for web development
+
+<p>
+  <a href="https://github.com/bennyz327">
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=bennyz327&show_icons=true&theme=cobalt&rank_icon=github" />
+  </a>
+</p>
+
+<a href="https://github.com/bennyz327">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bennyz327&layout=compact" />
+</a>
 
 <!--
-**bennyz327/bennyz327** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...

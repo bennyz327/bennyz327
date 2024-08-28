@@ -24,7 +24,6 @@ jobs:
         with:
           node-version-file: blog/vuepress-theme-hope/package.json
           node-version: 20
-          cache: pnpm
 
       - name: Install pnpm
         working-directory: blog/vuepress-theme-hope

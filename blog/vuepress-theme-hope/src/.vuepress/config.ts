@@ -12,11 +12,12 @@ export default defineUserConfig({
       title: "斑鳩的技術雜記",
       description: "斑鳩的技術雜記",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "Benny's Blog",
-      description: "Benny's Blog - Technology and Life",
-    },
+    // TODO 英文版
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "Benny's Blog",
+    //   description: "Benny's Blog - Technology and Life",
+    // },
   },
 
   theme,

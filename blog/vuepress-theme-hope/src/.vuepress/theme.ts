@@ -4,135 +4,93 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://bennyz327.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Benny Chou",
+    url: "https://google.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconify",
+  // iconAssets: [
+  //   "iconify",
+  //   "fontawesome-with-brands",
+  // ],
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/images/author-no-background.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "bennyz327/bennyz327",
 
-  docsDir: "src",
+  docsDir: "blog/vuepress-theme-hope/src",
 
   blog: {
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
+      Email: "mailto:bennyz327@gmail.com",
+      GitHub: "https://github.com/bennyz327",
+      Linkedin: "https://www.linkedin.com/in/benny-chou",
+      Youtube: "https://www.youtube.com/@bennychou0327",
+      "cakeresume": {
+        icon: "https://www.cakeresume.com/_next/static/media/cake-square.1f46e187.svg",
+        link: "https://www.cakeresume.com/s--DpsoGkde21f53rH7CDfa7g--/benny-b7fdca",
       },
     },
   },
 
   locales: {
     "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
+      footer: "啪！沒了！",
       displayFooter: true,
-
       blog: {
-        description: "A FrontEnd programmer",
+        description: "後端開發者",
         intro: "/intro.html",
       },
-
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "在 GitHub 上編輯此頁",
       },
     },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      blog: {
-        description: "一个前端开发者",
-        intro: "/zh/intro.html",
-      },
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+    // TODO 英文版
+    // "/en/": {
+    //   navbar: enNavbar,
+    //   sidebar: enSidebar,
+    //   footer: "No more!",
+    //   displayFooter: true,
+    //   blog: {
+    //     description: "Backend Developer",
+    //     intro: "/en/intro.html",
+    //   },
+    //   metaLocales: {
+    //     editLink: "Edit this page on GitHub",
+    //   },
+    // },
   },
 
   encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
+    // config: {
+    //   "/demo/encrypt.html": ["1234"],
+    //   "/zh/demo/encrypt.html": ["1234"],
+    // },
   },
 
   // enable it to preview all changes in time
   // hotReload: true,
 
   plugins: {
-    blog: true,
-
-    // Install @waline/client before enabling it
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
-
-    components: {
-      components: ["Badge", "VPCard"],
+    blog: {
+      article: "/article/"
     },
-
-    // These features are enabled for demo, only preserve features you need here
+    comment: {
+      provider: "Giscus",
+      repo: "bennyz327/bennyz327",
+      repoId: "R_kgDOMkrXDw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOMkrXD84CiAvD",
+      mapping: "title",
+    },
+    components: {
+      components: ["Badge", "VPCard", "PDF"],
+    },
     mdEnhance: {
       align: true,
       attrs: true,

@@ -1,9 +1,13 @@
 ## Hi there ! My name is Benny Chou 👋
-
-🌱 I specialize in browser web development using Java, Kotlin, JavaScript/TypeScript, and the Spring Boot framework<br/>
-🚀 I have a keen interest in self-hosted services and am actively learning automation and DevOps-related technologies<br/>
-🔍 I am currently seeking new job opportunities as a Backend Engineer, Full-Stack Engineer, or Operations Engineer<br/>
+<br/>
+🌱 I specialize in browser web development with Java, Kotlin, JavaScript/TypeScript, and Spring Boot
+<br/><br/>
+🚀 I'm focused on self-hosted services and enhancing my DevOps and automation skills
+<br/><br/>
+🔍 Seeking roles as Backend Engineer, Full-Stack Engineer, or Operations Engineer
+<br/><br/>
 📫 Contact: bennyz327@gmail.com
+<br/><br/>
 
 <p>
   <a href="https://github.com/bennyz327">

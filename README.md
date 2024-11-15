@@ -1,6 +1,6 @@
 ## Hi there ! My name is Benny Chou 👋
 
-- 🌱 I’m currently learning Java, Kotlin, Javascript/Typescript for web development
+- 🌱 I specialize in browser web development using Java, Kotlin, JavaScript/TypeScript, and the Spring Boot framework
 
 <p>
   <a href="https://github.com/bennyz327">

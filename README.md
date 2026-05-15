@@ -8,15 +8,3 @@
 <br/><br/>
 📫 Contact: bennyz327@gmail.com
 <br/><br/>
-
-<p>
-  <a href="https://github.com/bennyz327">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=bennyz327&show_icons=true&theme=cobalt&rank_icon=github" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/bennyz327">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bennyz327&layout=compact" />
-  </a>
-</p>
